@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quest Card</title>
+  <link rel="stylesheet" href="../../css/quest_card(second).css" />
+</head>
+<body class="quest-card-page">
+  <main class="quest-card-list" id="quest-card-list" aria-live="polite">
+    <p class="quest-card-status">Memuat data quest...</p>
+  </main>
+
+  <script type="module">
+    import { fetchQuests } from '../utils/api.js'
+
+    const questCardList = document.getElementById('quest-card-list')
+
+    const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => ({
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      '"': '&quot;',
+      "'": '&#039;'
+    }[char]))
+
+    const renderQuestCard = (quest) => `
+      <article class="quest-card" aria-label="${escapeHtml(quest.title)}">
+        <div class="quest-card__image" aria-hidden="true"></div>
+
+        <h1 class="quest-card__title">${escapeHtml(quest.title)}</h1>
+
+        <div class="quest-card__meta" aria-label="Informasi quest">
+          <span class="quest-card__tag">#</span>
+          <span class="quest-card__id-label">ID</span>
+          <span class="quest-card__id-value">${escapeHtml(quest.id_quest)}</span>
+        </div>
+
+        <div class="quest-card__actions">
+          <button class="quest-card__description" type="button">Description</button>
+        </div>
+      </article>
+    `
+
+    const loadQuests = async () => {
+      try {
+        const quests = await fetchQuests()
+
+        if (quests.length === 0) {
+          questCardList.innerHTML = '<p class="quest-card-status">Belum ada data quest.</p>'
+          return
+        }
+
+        questCardList.innerHTML = quests.map(renderQuestCard).join('')
+      } catch (error) {
+        questCardList.innerHTML = `<p class="quest-card-status">${escapeHtml(error.message)}</p>`
+      }
+    }
+
+    loadQuests()
+  </script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Description Player</title>
+  <link rel="stylesheet" href="../../css/item_card(second).css" />
+  <link rel="stylesheet" href="../../css/quest_card(second).css" />
+  <link rel="stylesheet" href="../../css/description_player.css" />
+</head>
+<body class="description-player-page">
+  <aside class="description-player description-player--open" aria-label="Detail player" id="description-player">
+    <input class="description-player__tab-input" type="radio" name="player-category" id="tab-inventory" checked />
+    <input class="description-player__tab-input" type="radio" name="player-category" id="tab-quest" />
+
+    <section class="description-player__summary" aria-label="Ringkasan player">
+      <h1 class="description-player__name" id="player-name">Player</h1>
+
+      <div class="description-player__line">
+        <span class="description-player__marker" aria-hidden="true"></span>
+        <span class="description-player__summary-label">Level</span>
+        <span class="description-player__level" id="player-level">1</span>
+      </div>
+
+      <div class="description-player__line description-player__line--stack">
+        <span class="description-player__marker" aria-hidden="true"></span>
+        <div>
+          <span class="description-player__summary-label">Inventory List</span>
+          <ol class="description-player__number-list" id="inventory-list">
+            <li>Memuat item...</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="description-player__line description-player__line--stack">
+        <span class="description-player__marker" aria-hidden="true"></span>
+        <div>
+          <span class="description-player__summary-label">Completed Quest</span>
+          <ol class="description-player__completed-list" id="completed-quest-list">
+            <li><strong>Memuat quest...</strong></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="description-player__category" aria-label="Kategori detail">
+      <span class="description-player__category-label">Kategori :</span>
+      <div class="description-player__tabs">
+        <label class="description-player__tab" for="tab-inventory">Inventory</label>
+        <label class="description-player__tab" for="tab-quest">Quest</label>
+      </div>
+    </section>
+
+    <section class="description-player__content description-player__content--inventory" id="inventory-card-list" aria-label="Item inventory">
+      <p class="description-player__empty">Memuat item...</p>
+    </section>
+
+    <section class="description-player__content description-player__content--quest" id="quest-card-list" aria-label="Quest selesai">
+      <p class="description-player__empty">Memuat quest...</p>
+    </section>
+
+    <div class="description-player__actions">
+      <button class="description-player__edit" type="button">Edit Player</button>
+      <button class="description-player__return" type="button">Return</button>
+    </div>
+  </aside>
+
+  <script type="module">
+    import { fetchPlayerById, fetchPlayers } from '../utils/api.js'
+
+    const params = new URLSearchParams(window.location.search)
+    const playerName = document.getElementById('player-name')
+    const playerLevel = document.getElementById('player-level')
+    const inventoryList = document.getElementById('inventory-list')
+    const completedQuestList = document.getElementById('completed-quest-list')
+    const inventoryCardList = document.getElementById('inventory-card-list')
+    const questCardList = document.getElementById('quest-card-list')
+
+    const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => ({
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      '"': '&quot;',
+      "'": '&#039;'
+    }[char]))
+
+    const renderItemCard = (item) => `
+      <article class="item-card" aria-label="${escapeHtml(item.name)}">
+        <div class="item-card__image" aria-hidden="true"></div>
+        <h2 class="item-card__title">${escapeHtml(item.name)}</h2>
+        <div class="item-card__meta" aria-label="Informasi item">
+          <span class="item-card__tag">#</span>
+          <span class="item-card__id-label">ID</span>
+          <span class="item-card__id-value">${escapeHtml(item.id_item)}</span>
+        </div>
+        <div class="item-card__actions">
+          <button class="item-card__description" type="button">Description</button>
+        </div>
+      </article>
+    `
+
+    const renderQuestCard = (quest) => `
+      <article class="quest-card" aria-label="${escapeHtml(quest.title)}">
+        <div class="quest-card__image" aria-hidden="true"></div>
+        <h2 class="quest-card__title">${escapeHtml(quest.title)}</h2>
+        <div class="quest-card__meta" aria-label="Informasi quest">
+          <span class="quest-card__tag">#</span>
+          <span class="quest-card__id-label">ID</span>
+          <span class="quest-card__id-value">${escapeHtml(quest.id_quest)}</span>
+        </div>
+        <div class="quest-card__actions">
+          <button class="quest-card__description" type="button">Description</button>
+        </div>
+      </article>
+    `
+
+    const renderPlayerDescription = (player) => {
+      const items = player.items || []
+      const quests = player.quests || []
+
+      document.title = `${player.username} - Description Player`
+      playerName.textContent = player.username
+      playerLevel.textContent = player.level || '1'
+
+      inventoryList.innerHTML = items.length
+        ? items.map((item) => `<li>${escapeHtml(item.name)}</li>`).join('')
+        : '<li>Belum ada item</li>'
+
+      completedQuestList.innerHTML = quests.length
+        ? quests.map((quest) => `
+            <li>
+              <span class="description-player__check" aria-hidden="true"></span>
+              <strong>${escapeHtml(quest.title)}</strong>
+            </li>
+          `).join('')
+        : '<li><strong>Belum ada quest</strong></li>'
+
+      inventoryCardList.innerHTML = items.length
+        ? items.map(renderItemCard).join('')
+        : '<p class="description-player__empty">Player ini belum punya item.</p>'
+
+      questCardList.innerHTML = quests.length
+        ? quests.map(renderQuestCard).join('')
+        : '<p class="description-player__empty">Player ini belum menyelesaikan quest.</p>'
+    }
+
+    const loadPlayerDescription = async () => {
+      try {
+        let idPlayer = params.get('id_player')
+
+        if (!idPlayer) {
+          const players = await fetchPlayers()
+          idPlayer = players[0]?.id_player
+        }
+
+        if (!idPlayer) {
+          throw new Error('Belum ada data player.')
+        }
+
+        const player = await fetchPlayerById(idPlayer)
+        renderPlayerDescription(player)
+      } catch (error) {
+        inventoryList.innerHTML = `<li>${escapeHtml(error.message)}</li>`
+        completedQuestList.innerHTML = '<li><strong>Data quest belum tersedia</strong></li>'
+        inventoryCardList.innerHTML = `<p class="description-player__empty">${escapeHtml(error.message)}</p>`
+        questCardList.innerHTML = '<p class="description-player__empty">Data quest belum tersedia.</p>'
+      }
+    }
+
+    loadPlayerDescription()
+  </script>
+</body>
+</html>

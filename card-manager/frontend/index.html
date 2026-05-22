@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Card Manager</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Card Manager</h1>
+    <div class="search-bar">
+      <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+      </svg>
+      <input id="search-input" type="text" placeholder="Cari kartu..." />
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="toolbar">
+      <button id="btn-add" class="btn-primary">+ Tambah Kartu</button>
+    </div>
+    <div id="card-grid" class="card-grid"></div>
+  </main>
+
+  <!-- Detail Panel -->
+  <div id="detail-panel" class="detail-panel">
+    <button id="detail-close" class="detail-close">×</button>
+    <div class="detail-image">Tidak ada gambar</div>
+    <h2 id="detail-name"></h2>
+    <p id="detail-desc"></p>
+    <span id="detail-date" class="date"></span>
+  </div>
+
+  <!-- Modal Tambah Kartu -->
+  <div id="add-modal" class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close">×</button>
+      <h2>Tambah Kartu Baru</h2>
+      <form id="add-card-form">
+        <div class="form-group">
+          <label for="input-name">Nama Kartu</label>
+          <input id="input-name" type="text" placeholder="Contoh: Iron Chest Plate" required />
+        </div>
+        <div class="form-group">
+          <label for="input-desc">Deskripsi</label>
+          <textarea id="input-desc" placeholder="Deskripsi kartu..."></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="button" class="btn-outline modal-close">Batal</button>
+          <button type="submit" class="btn-primary">Tambah</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
