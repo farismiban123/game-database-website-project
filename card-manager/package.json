@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "install:backend": "npm install --prefix backend",
     "install:frontend": "npm install --prefix frontend",
-    "install:all": "npm run install:backend && npm run install:frontend",
-    "dev:backend": "npm run dev --prefix backend",
+    "install:all": "npm run install:frontend",
+    "dev:backend": "C:/xampp/php/php.exe -S 127.0.0.1:5000 -t backend/api backend/api/router.php",
     "dev:frontend": "npm run dev --prefix frontend",
-    "start:backend": "npm start --prefix backend"
+    "start:backend": "C:/xampp/php/php.exe -S 127.0.0.1:5000 -t backend/api backend/api/router.php"
   }
 }

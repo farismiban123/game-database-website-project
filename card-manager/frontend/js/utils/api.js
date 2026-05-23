@@ -1,4 +1,17 @@
-const BASE_URL = 'http://localhost:5000'
+const getSameProjectPhpApiUrl = () => {
+  const marker = '/card-manager/frontend/'
+  const pathname = window.location.pathname.replaceAll('\\', '/')
+  const markerIndex = pathname.indexOf(marker)
+
+  if (markerIndex === -1) {
+    return 'http://127.0.0.1:5000'
+  }
+
+  return `${window.location.origin}${pathname.slice(0, markerIndex)}/card-manager/backend/api/index.php`
+}
+
+const isStaticDevServer = ['5173', '5500', '5501'].includes(window.location.port)
+const BASE_URL = isStaticDevServer ? 'http://127.0.0.1:5000' : getSameProjectPhpApiUrl()
 
 const request = async (path, options = {}) => {
   const res = await fetch(`${BASE_URL}${path}`, {
