@@ -1,0 +1,541 @@
+[Sat May 23 20:51:44 2026] PHP 8.2.12 Development Server (http://127.0.0.1:8090) started
+[Sat May 23 20:52:27 2026] 127.0.0.1:60401 Accepted
+[Sat May 23 20:52:29 2026] 127.0.0.1:60401 [200]: GET /
+[Sat May 23 20:52:29 2026] 127.0.0.1:60401 Closing
+[Sat May 23 20:52:29 2026] 127.0.0.1:59933 Accepted
+[Sat May 23 20:52:29 2026] 127.0.0.1:59933 [200]: GET /css/app.css
+[Sat May 23 20:52:29 2026] 127.0.0.1:59933 Closing
+[Sat May 23 20:52:29 2026] 127.0.0.1:61539 Accepted
+[Sat May 23 20:52:29 2026] 127.0.0.1:61539 [200]: GET /css/variables.css
+[Sat May 23 20:52:29 2026] 127.0.0.1:61539 Closing
+[Sat May 23 20:52:29 2026] 127.0.0.1:56439 Accepted
+[Sat May 23 20:52:29 2026] 127.0.0.1:56439 [404]: GET /favicon.ico - No such file or directory
+[Sat May 23 20:52:29 2026] 127.0.0.1:56439 Closing
+[Sat May 23 20:52:33 2026] 127.0.0.1:50469 Accepted
+[Sat May 23 20:52:35 2026] 127.0.0.1:50469 [200]: GET /players.php
+[Sat May 23 20:52:35 2026] 127.0.0.1:50469 Closing
+[Sat May 23 20:52:35 2026] 127.0.0.1:51674 Accepted
+[Sat May 23 20:52:35 2026] 127.0.0.1:51674 [200]: GET /css/app.css
+[Sat May 23 20:52:35 2026] 127.0.0.1:51674 Closing
+[Sat May 23 20:52:35 2026] 127.0.0.1:55472 Accepted
+[Sat May 23 20:52:35 2026] 127.0.0.1:55472 [200]: GET /css/variables.css
+[Sat May 23 20:52:35 2026] 127.0.0.1:55472 Closing
+[Sat May 23 20:53:13 2026] 127.0.0.1:55532 Accepted
+[Sat May 23 20:53:15 2026] 127.0.0.1:55532 [200]: GET /players.php
+[Sat May 23 20:53:15 2026] 127.0.0.1:55532 Closing
+[Sat May 23 20:53:15 2026] 127.0.0.1:60123 Accepted
+[Sat May 23 20:53:15 2026] 127.0.0.1:60123 [200]: GET /css/app.css
+[Sat May 23 20:53:15 2026] 127.0.0.1:60123 Closing
+[Sat May 23 20:53:15 2026] 127.0.0.1:50414 Accepted
+[Sat May 23 20:53:15 2026] 127.0.0.1:50414 [200]: GET /css/variables.css
+[Sat May 23 20:53:15 2026] 127.0.0.1:50414 Closing
+[Sat May 23 20:55:35 2026] 127.0.0.1:60470 Accepted
+[Sat May 23 20:55:35 2026] 127.0.0.1:61806 Accepted
+[Sat May 23 20:55:37 2026] 127.0.0.1:60470 [200]: GET /
+[Sat May 23 20:55:37 2026] 127.0.0.1:60470 Closing
+[Sat May 23 20:55:37 2026] 127.0.0.1:61806 [200]: GET /css/app.css
+[Sat May 23 20:55:37 2026] 127.0.0.1:61806 Closing
+[Sat May 23 20:55:37 2026] 127.0.0.1:51618 Accepted
+[Sat May 23 20:55:37 2026] 127.0.0.1:51618 [200]: GET /css/variables.css
+[Sat May 23 20:55:37 2026] 127.0.0.1:51618 Closing
+[Sat May 23 20:57:23 2026] 127.0.0.1:52239 Accepted
+[Sat May 23 20:57:23 2026] 127.0.0.1:52239 [200]: GET /
+[Sat May 23 20:57:23 2026] 127.0.0.1:52239 Closing
+[Sat May 23 20:57:23 2026] 127.0.0.1:63321 Accepted
+[Sat May 23 20:57:24 2026] 127.0.0.1:63321 [200]: GET /css/app.css
+[Sat May 23 20:57:24 2026] 127.0.0.1:63321 Closing
+[Sat May 23 20:57:24 2026] 127.0.0.1:62036 Accepted
+[Sat May 23 20:57:24 2026] 127.0.0.1:62036 [200]: GET /css/variables.css
+[Sat May 23 20:57:24 2026] 127.0.0.1:62036 Closing
+[Sat May 23 20:57:28 2026] 127.0.0.1:55777 Accepted
+[Sat May 23 20:57:28 2026] 127.0.0.1:55777 [200]: GET /quests.php
+[Sat May 23 20:57:28 2026] 127.0.0.1:55777 Closing
+[Sat May 23 20:57:28 2026] 127.0.0.1:57919 Accepted
+[Sat May 23 20:57:28 2026] 127.0.0.1:57919 [200]: GET /css/quest_card(second).css
+[Sat May 23 20:57:28 2026] 127.0.0.1:57919 Closing
+[Sat May 23 20:57:28 2026] 127.0.0.1:62458 Accepted
+[Sat May 23 20:57:28 2026] 127.0.0.1:62458 [200]: GET /css/app.css
+[Sat May 23 20:57:28 2026] 127.0.0.1:62458 Closing
+[Sat May 23 20:57:28 2026] 127.0.0.1:57097 Accepted
+[Sat May 23 20:57:28 2026] 127.0.0.1:57097 [200]: GET /css/variables.css
+[Sat May 23 20:57:28 2026] 127.0.0.1:57097 Closing
+[Sat May 23 20:57:31 2026] 127.0.0.1:64143 Accepted
+[Sat May 23 20:57:31 2026] 127.0.0.1:64143 [200]: GET /items.php
+[Sat May 23 20:57:31 2026] 127.0.0.1:64143 Closing
+[Sat May 23 20:57:31 2026] 127.0.0.1:56834 Accepted
+[Sat May 23 20:57:31 2026] 127.0.0.1:56834 [200]: GET /css/item_card(second).css
+[Sat May 23 20:57:31 2026] 127.0.0.1:56834 Closing
+[Sat May 23 20:57:31 2026] 127.0.0.1:64526 Accepted
+[Sat May 23 20:57:31 2026] 127.0.0.1:64526 [200]: GET /css/app.css
+[Sat May 23 20:57:31 2026] 127.0.0.1:64526 Closing
+[Sat May 23 20:57:31 2026] 127.0.0.1:53954 Accepted
+[Sat May 23 20:57:31 2026] 127.0.0.1:53954 [200]: GET /css/variables.css
+[Sat May 23 20:57:31 2026] 127.0.0.1:53954 Closing
+[Sat May 23 20:57:35 2026] 127.0.0.1:53868 Accepted
+[Sat May 23 20:57:35 2026] 127.0.0.1:53868 [200]: GET /players.php
+[Sat May 23 20:57:35 2026] 127.0.0.1:53868 Closing
+[Sat May 23 20:57:35 2026] 127.0.0.1:49854 Accepted
+[Sat May 23 20:57:35 2026] 127.0.0.1:59926 Accepted
+[Sat May 23 20:57:35 2026] 127.0.0.1:49854 [200]: GET /css/player_card.css
+[Sat May 23 20:57:35 2026] 127.0.0.1:49854 Closing
+[Sat May 23 20:57:35 2026] 127.0.0.1:59926 [200]: GET /css/app.css
+[Sat May 23 20:57:35 2026] 127.0.0.1:59926 Closing
+[Sat May 23 20:57:35 2026] 127.0.0.1:64943 Accepted
+[Sat May 23 20:57:35 2026] 127.0.0.1:64943 [200]: GET /css/variables.css
+[Sat May 23 20:57:35 2026] 127.0.0.1:64943 Closing
+[Sat May 23 20:57:40 2026] 127.0.0.1:63027 Accepted
+[Sat May 23 20:57:40 2026] 127.0.0.1:63027 [200]: GET /items.php
+[Sat May 23 20:57:40 2026] 127.0.0.1:63027 Closing
+[Sat May 23 20:57:40 2026] 127.0.0.1:56351 Accepted
+[Sat May 23 20:57:40 2026] 127.0.0.1:49971 Accepted
+[Sat May 23 20:57:40 2026] 127.0.0.1:56351 [200]: GET /css/item_card(second).css
+[Sat May 23 20:57:40 2026] 127.0.0.1:56351 Closing
+[Sat May 23 20:57:40 2026] 127.0.0.1:49971 [200]: GET /css/app.css
+[Sat May 23 20:57:40 2026] 127.0.0.1:49971 Closing
+[Sat May 23 20:57:40 2026] 127.0.0.1:57589 Accepted
+[Sat May 23 20:57:40 2026] 127.0.0.1:57589 [200]: GET /css/variables.css
+[Sat May 23 20:57:40 2026] 127.0.0.1:57589 Closing
+[Sat May 23 20:57:47 2026] 127.0.0.1:62681 Accepted
+[Sat May 23 20:57:47 2026] 127.0.0.1:62681 [200]: GET /players.php
+[Sat May 23 20:57:47 2026] 127.0.0.1:62681 Closing
+[Sat May 23 20:57:47 2026] 127.0.0.1:51513 Accepted
+[Sat May 23 20:57:47 2026] 127.0.0.1:63091 Accepted
+[Sat May 23 20:57:47 2026] 127.0.0.1:51513 [200]: GET /css/player_card.css
+[Sat May 23 20:57:47 2026] 127.0.0.1:51513 Closing
+[Sat May 23 20:57:47 2026] 127.0.0.1:63091 [200]: GET /css/app.css
+[Sat May 23 20:57:47 2026] 127.0.0.1:63091 Closing
+[Sat May 23 20:57:47 2026] 127.0.0.1:61044 Accepted
+[Sat May 23 20:57:47 2026] 127.0.0.1:61044 [200]: GET /css/variables.css
+[Sat May 23 20:57:47 2026] 127.0.0.1:61044 Closing
+[Sat May 23 20:57:48 2026] 127.0.0.1:61621 Accepted
+[Sat May 23 20:57:48 2026] 127.0.0.1:61621 [200]: GET /quests.php
+[Sat May 23 20:57:48 2026] 127.0.0.1:61621 Closing
+[Sat May 23 20:57:48 2026] 127.0.0.1:50934 Accepted
+[Sat May 23 20:57:49 2026] 127.0.0.1:50934 [200]: GET /css/quest_card(second).css
+[Sat May 23 20:57:49 2026] 127.0.0.1:50934 Closing
+[Sat May 23 20:57:49 2026] 127.0.0.1:53624 Accepted
+[Sat May 23 20:57:49 2026] 127.0.0.1:53624 [200]: GET /css/app.css
+[Sat May 23 20:57:49 2026] 127.0.0.1:53624 Closing
+[Sat May 23 20:57:49 2026] 127.0.0.1:55703 Accepted
+[Sat May 23 20:57:49 2026] 127.0.0.1:55703 [200]: GET /css/variables.css
+[Sat May 23 20:57:49 2026] 127.0.0.1:55703 Closing
+[Sat May 23 20:57:49 2026] 127.0.0.1:50366 Accepted
+[Sat May 23 20:57:49 2026] 127.0.0.1:50366 [200]: GET /add.php
+[Sat May 23 20:57:49 2026] 127.0.0.1:50366 Closing
+[Sat May 23 20:57:49 2026] 127.0.0.1:52562 Accepted
+[Sat May 23 20:57:49 2026] 127.0.0.1:51511 Accepted
+[Sat May 23 20:57:49 2026] 127.0.0.1:52562 [200]: GET /css/app.css
+[Sat May 23 20:57:49 2026] 127.0.0.1:52562 Closing
+[Sat May 23 20:57:49 2026] 127.0.0.1:51511 [200]: GET /css/variables.css
+[Sat May 23 20:57:49 2026] 127.0.0.1:51511 Closing
+[Sat May 23 20:57:54 2026] 127.0.0.1:60488 Accepted
+[Sat May 23 20:57:54 2026] 127.0.0.1:60488 [200]: GET /players.php
+[Sat May 23 20:57:54 2026] 127.0.0.1:60488 Closing
+[Sat May 23 20:57:54 2026] 127.0.0.1:63653 Accepted
+[Sat May 23 20:57:54 2026] 127.0.0.1:49252 Accepted
+[Sat May 23 20:57:54 2026] 127.0.0.1:63653 [200]: GET /css/player_card.css
+[Sat May 23 20:57:54 2026] 127.0.0.1:63653 Closing
+[Sat May 23 20:57:54 2026] 127.0.0.1:49252 [200]: GET /css/app.css
+[Sat May 23 20:57:54 2026] 127.0.0.1:49252 Closing
+[Sat May 23 20:57:54 2026] 127.0.0.1:64389 Accepted
+[Sat May 23 20:57:54 2026] 127.0.0.1:64389 [200]: GET /css/variables.css
+[Sat May 23 20:57:54 2026] 127.0.0.1:64389 Closing
+[Sat May 23 20:58:07 2026] 127.0.0.1:55666 Accepted
+[Sat May 23 20:58:07 2026] 127.0.0.1:55666 [200]: GET /player.php?id_player=112
+[Sat May 23 20:58:07 2026] 127.0.0.1:55666 Closing
+[Sat May 23 20:58:07 2026] 127.0.0.1:58893 Accepted
+[Sat May 23 20:58:07 2026] 127.0.0.1:53681 Accepted
+[Sat May 23 20:58:07 2026] 127.0.0.1:58893 [200]: GET /css/item_card(second).css
+[Sat May 23 20:58:07 2026] 127.0.0.1:58893 Closing
+[Sat May 23 20:58:07 2026] 127.0.0.1:53681 [200]: GET /css/description_player.css
+[Sat May 23 20:58:07 2026] 127.0.0.1:64858 Accepted
+[Sat May 23 20:58:07 2026] 127.0.0.1:65379 Accepted
+[Sat May 23 20:58:07 2026] 127.0.0.1:64858 [200]: GET /css/quest_card(second).css
+[Sat May 23 20:58:07 2026] 127.0.0.1:65379 [200]: GET /css/app.css
+[Sat May 23 20:58:07 2026] 127.0.0.1:53681 Closing
+[Sat May 23 20:58:07 2026] 127.0.0.1:50218 Accepted
+[Sat May 23 20:58:07 2026] 127.0.0.1:50218 [200]: GET /css/variables.css
+[Sat May 23 20:58:07 2026] 127.0.0.1:64858 Closing
+[Sat May 23 20:58:07 2026] 127.0.0.1:65379 Closing
+[Sat May 23 20:58:07 2026] 127.0.0.1:50218 Closing
+[Sat May 23 20:58:13 2026] 127.0.0.1:61345 Accepted
+[Sat May 23 20:58:13 2026] 127.0.0.1:61345 [200]: GET /items.php
+[Sat May 23 20:58:13 2026] 127.0.0.1:61345 Closing
+[Sat May 23 20:58:13 2026] 127.0.0.1:62516 Accepted
+[Sat May 23 20:58:13 2026] 127.0.0.1:56083 Accepted
+[Sat May 23 20:58:13 2026] 127.0.0.1:62516 [200]: GET /css/item_card(second).css
+[Sat May 23 20:58:13 2026] 127.0.0.1:62516 Closing
+[Sat May 23 20:58:13 2026] 127.0.0.1:56083 [200]: GET /css/app.css
+[Sat May 23 20:58:13 2026] 127.0.0.1:56083 Closing
+[Sat May 23 20:58:13 2026] 127.0.0.1:50084 Accepted
+[Sat May 23 20:58:13 2026] 127.0.0.1:50084 [200]: GET /css/variables.css
+[Sat May 23 20:58:13 2026] 127.0.0.1:50084 Closing
+[Sat May 23 20:58:13 2026] 127.0.0.1:63531 Accepted
+[Sat May 23 20:58:14 2026] 127.0.0.1:63531 [200]: GET /item.php?id_item=129
+[Sat May 23 20:58:14 2026] 127.0.0.1:63531 Closing
+[Sat May 23 20:58:14 2026] 127.0.0.1:54492 Accepted
+[Sat May 23 20:58:14 2026] 127.0.0.1:54492 [200]: GET /css/item_card(second).css
+[Sat May 23 20:58:14 2026] 127.0.0.1:54492 Closing
+[Sat May 23 20:58:14 2026] 127.0.0.1:52353 Accepted
+[Sat May 23 20:58:14 2026] 127.0.0.1:52353 [200]: GET /css/app.css
+[Sat May 23 20:58:14 2026] 127.0.0.1:52353 Closing
+[Sat May 23 20:58:14 2026] 127.0.0.1:64872 Accepted
+[Sat May 23 20:58:14 2026] 127.0.0.1:64872 [200]: GET /css/variables.css
+[Sat May 23 20:58:14 2026] 127.0.0.1:64872 Closing
+[Sat May 23 20:58:24 2026] 127.0.0.1:57274 Accepted
+[Sat May 23 20:58:24 2026] 127.0.0.1:57274 [200]: GET /item.php?id_item=130
+[Sat May 23 20:58:24 2026] 127.0.0.1:57274 Closing
+[Sat May 23 20:58:24 2026] 127.0.0.1:61651 Accepted
+[Sat May 23 20:58:24 2026] 127.0.0.1:61651 [200]: GET /css/item_card(second).css
+[Sat May 23 20:58:24 2026] 127.0.0.1:61651 Closing
+[Sat May 23 20:58:24 2026] 127.0.0.1:60355 Accepted
+[Sat May 23 20:58:24 2026] 127.0.0.1:60355 [200]: GET /css/app.css
+[Sat May 23 20:58:24 2026] 127.0.0.1:64496 Accepted
+[Sat May 23 20:58:24 2026] 127.0.0.1:60355 Closing
+[Sat May 23 20:58:24 2026] 127.0.0.1:64496 [200]: GET /css/variables.css
+[Sat May 23 20:58:24 2026] 127.0.0.1:64496 Closing
+[Sat May 23 20:58:28 2026] 127.0.0.1:60981 Accepted
+[Sat May 23 20:58:28 2026] 127.0.0.1:60981 [200]: GET /item.php?id_item=128
+[Sat May 23 20:58:28 2026] 127.0.0.1:60981 Closing
+[Sat May 23 20:58:28 2026] 127.0.0.1:51913 Accepted
+[Sat May 23 20:58:28 2026] 127.0.0.1:56281 Accepted
+[Sat May 23 20:58:28 2026] 127.0.0.1:51913 [200]: GET /css/item_card(second).css
+[Sat May 23 20:58:28 2026] 127.0.0.1:51913 Closing
+[Sat May 23 20:58:28 2026] 127.0.0.1:56281 [200]: GET /css/app.css
+[Sat May 23 20:58:28 2026] 127.0.0.1:56281 Closing
+[Sat May 23 20:58:28 2026] 127.0.0.1:62349 Accepted
+[Sat May 23 20:58:28 2026] 127.0.0.1:62349 [200]: GET /css/variables.css
+[Sat May 23 20:58:28 2026] 127.0.0.1:62349 Closing
+[Sat May 23 20:58:33 2026] 127.0.0.1:52814 Accepted
+[Sat May 23 20:58:33 2026] 127.0.0.1:52814 [200]: GET /item.php?id_item=121
+[Sat May 23 20:58:33 2026] 127.0.0.1:52814 Closing
+[Sat May 23 20:58:33 2026] 127.0.0.1:51039 Accepted
+[Sat May 23 20:58:33 2026] 127.0.0.1:49669 Accepted
+[Sat May 23 20:58:33 2026] 127.0.0.1:51039 [200]: GET /css/item_card(second).css
+[Sat May 23 20:58:33 2026] 127.0.0.1:51039 Closing
+[Sat May 23 20:58:34 2026] 127.0.0.1:49669 [200]: GET /css/app.css
+[Sat May 23 20:58:34 2026] 127.0.0.1:49669 Closing
+[Sat May 23 20:58:34 2026] 127.0.0.1:54257 Accepted
+[Sat May 23 20:58:34 2026] 127.0.0.1:54257 [200]: GET /css/variables.css
+[Sat May 23 20:58:34 2026] 127.0.0.1:54257 Closing
+[Sat May 23 20:58:46 2026] 127.0.0.1:59208 Accepted
+[Sat May 23 20:58:46 2026] 127.0.0.1:59208 [200]: GET /item.php?id_item=124
+[Sat May 23 20:58:46 2026] 127.0.0.1:59208 Closing
+[Sat May 23 20:58:46 2026] 127.0.0.1:49995 Accepted
+[Sat May 23 20:58:46 2026] 127.0.0.1:49995 [200]: GET /css/item_card(second).css
+[Sat May 23 20:58:46 2026] 127.0.0.1:49995 Closing
+[Sat May 23 20:58:46 2026] 127.0.0.1:50344 Accepted
+[Sat May 23 20:58:46 2026] 127.0.0.1:50344 [200]: GET /css/app.css
+[Sat May 23 20:58:46 2026] 127.0.0.1:50344 Closing
+[Sat May 23 20:58:46 2026] 127.0.0.1:65201 Accepted
+[Sat May 23 20:58:46 2026] 127.0.0.1:65201 [200]: GET /css/variables.css
+[Sat May 23 20:58:46 2026] 127.0.0.1:65201 Closing
+[Sat May 23 20:58:50 2026] 127.0.0.1:50703 Accepted
+[Sat May 23 20:58:50 2026] 127.0.0.1:50703 [200]: GET /item.php?id_item=126
+[Sat May 23 20:58:50 2026] 127.0.0.1:50703 Closing
+[Sat May 23 20:58:50 2026] 127.0.0.1:53747 Accepted
+[Sat May 23 20:58:50 2026] 127.0.0.1:59280 Accepted
+[Sat May 23 20:58:50 2026] 127.0.0.1:53747 [200]: GET /css/item_card(second).css
+[Sat May 23 20:58:50 2026] 127.0.0.1:53747 Closing
+[Sat May 23 20:58:50 2026] 127.0.0.1:59280 [200]: GET /css/app.css
+[Sat May 23 20:58:50 2026] 127.0.0.1:59280 Closing
+[Sat May 23 20:58:50 2026] 127.0.0.1:56480 Accepted
+[Sat May 23 20:58:50 2026] 127.0.0.1:56480 [200]: GET /css/variables.css
+[Sat May 23 20:58:50 2026] 127.0.0.1:56480 Closing
+[Sat May 23 20:58:54 2026] 127.0.0.1:62227 Accepted
+[Sat May 23 20:58:54 2026] 127.0.0.1:62227 [200]: GET /item.php?id_item=129
+[Sat May 23 20:58:54 2026] 127.0.0.1:62227 Closing
+[Sat May 23 20:58:54 2026] 127.0.0.1:62853 Accepted
+[Sat May 23 20:58:54 2026] 127.0.0.1:55785 Accepted
+[Sat May 23 20:58:54 2026] 127.0.0.1:62853 [200]: GET /css/item_card(second).css
+[Sat May 23 20:58:54 2026] 127.0.0.1:62853 Closing
+[Sat May 23 20:58:54 2026] 127.0.0.1:55785 [200]: GET /css/app.css
+[Sat May 23 20:58:54 2026] 127.0.0.1:55785 Closing
+[Sat May 23 20:58:54 2026] 127.0.0.1:63559 Accepted
+[Sat May 23 20:58:54 2026] 127.0.0.1:63559 [200]: GET /css/variables.css
+[Sat May 23 20:58:54 2026] 127.0.0.1:63559 Closing
+[Sat May 23 20:58:57 2026] 127.0.0.1:57838 Accepted
+[Sat May 23 20:58:57 2026] 127.0.0.1:57838 [200]: GET /item.php?id_item=130
+[Sat May 23 20:58:57 2026] 127.0.0.1:57838 Closing
+[Sat May 23 20:58:57 2026] 127.0.0.1:65033 Accepted
+[Sat May 23 20:58:57 2026] 127.0.0.1:59175 Accepted
+[Sat May 23 20:58:57 2026] 127.0.0.1:65033 [200]: GET /css/item_card(second).css
+[Sat May 23 20:58:57 2026] 127.0.0.1:65033 Closing
+[Sat May 23 20:58:57 2026] 127.0.0.1:59175 [200]: GET /css/app.css
+[Sat May 23 20:58:57 2026] 127.0.0.1:59175 Closing
+[Sat May 23 20:58:57 2026] 127.0.0.1:62974 Accepted
+[Sat May 23 20:58:57 2026] 127.0.0.1:62974 [200]: GET /css/variables.css
+[Sat May 23 20:58:57 2026] 127.0.0.1:62974 Closing
+[Sat May 23 21:00:34 2026] 127.0.0.1:53079 Accepted
+[Sat May 23 21:00:34 2026] 127.0.0.1:53079 [200]: GET /add.php
+[Sat May 23 21:00:34 2026] 127.0.0.1:53079 Closing
+[Sat May 23 21:00:34 2026] 127.0.0.1:56403 Accepted
+[Sat May 23 21:00:35 2026] 127.0.0.1:56403 [200]: GET /css/app.css
+[Sat May 23 21:00:35 2026] 127.0.0.1:56403 Closing
+[Sat May 23 21:00:35 2026] 127.0.0.1:53636 Accepted
+[Sat May 23 21:00:35 2026] 127.0.0.1:53636 [200]: GET /css/variables.css
+[Sat May 23 21:00:35 2026] 127.0.0.1:53636 Closing
+[Sat May 23 21:00:36 2026] 127.0.0.1:51353 Accepted
+[Sat May 23 21:00:36 2026] 127.0.0.1:51353 [200]: GET /players.php
+[Sat May 23 21:00:36 2026] 127.0.0.1:51353 Closing
+[Sat May 23 21:00:36 2026] 127.0.0.1:64412 Accepted
+[Sat May 23 21:00:36 2026] 127.0.0.1:64412 [200]: GET /css/player_card.css
+[Sat May 23 21:00:36 2026] 127.0.0.1:64412 Closing
+[Sat May 23 21:00:36 2026] 127.0.0.1:54063 Accepted
+[Sat May 23 21:00:36 2026] 127.0.0.1:54063 [200]: GET /css/app.css
+[Sat May 23 21:00:36 2026] 127.0.0.1:54063 Closing
+[Sat May 23 21:00:36 2026] 127.0.0.1:51397 Accepted
+[Sat May 23 21:00:36 2026] 127.0.0.1:51397 [200]: GET /css/variables.css
+[Sat May 23 21:00:36 2026] 127.0.0.1:51397 Closing
+[Sat May 23 21:00:37 2026] 127.0.0.1:64141 Accepted
+[Sat May 23 21:00:37 2026] 127.0.0.1:64141 [200]: GET /items.php
+[Sat May 23 21:00:37 2026] 127.0.0.1:64141 Closing
+[Sat May 23 21:00:37 2026] 127.0.0.1:59413 Accepted
+[Sat May 23 21:00:37 2026] 127.0.0.1:50554 Accepted
+[Sat May 23 21:00:37 2026] 127.0.0.1:59413 [200]: GET /css/item_card(second).css
+[Sat May 23 21:00:37 2026] 127.0.0.1:59413 Closing
+[Sat May 23 21:00:37 2026] 127.0.0.1:50554 [200]: GET /css/app.css
+[Sat May 23 21:00:37 2026] 127.0.0.1:50554 Closing
+[Sat May 23 21:00:37 2026] 127.0.0.1:54201 Accepted
+[Sat May 23 21:00:37 2026] 127.0.0.1:54201 [200]: GET /css/variables.css
+[Sat May 23 21:00:37 2026] 127.0.0.1:54201 Closing
+[Sat May 23 21:00:37 2026] 127.0.0.1:61321 Accepted
+[Sat May 23 21:00:37 2026] 127.0.0.1:49368 Accepted
+[Sat May 23 21:00:37 2026] 127.0.0.1:61321 [200]: GET /quests.php
+[Sat May 23 21:00:37 2026] 127.0.0.1:61321 Closing
+[Sat May 23 21:00:37 2026] 127.0.0.1:49368 [200]: GET /css/quest_card(second).css
+[Sat May 23 21:00:37 2026] 127.0.0.1:56692 Accepted
+[Sat May 23 21:00:37 2026] 127.0.0.1:56692 [200]: GET /css/app.css
+[Sat May 23 21:00:37 2026] 127.0.0.1:49368 Closing
+[Sat May 23 21:00:37 2026] 127.0.0.1:56692 Closing
+[Sat May 23 21:00:37 2026] 127.0.0.1:56617 Accepted
+[Sat May 23 21:00:37 2026] 127.0.0.1:56617 [200]: GET /css/variables.css
+[Sat May 23 21:00:37 2026] 127.0.0.1:56617 Closing
+[Sat May 23 21:00:38 2026] 127.0.0.1:63056 Accepted
+[Sat May 23 21:00:38 2026] 127.0.0.1:63056 [200]: GET /items.php
+[Sat May 23 21:00:38 2026] 127.0.0.1:63056 Closing
+[Sat May 23 21:00:38 2026] 127.0.0.1:60727 Accepted
+[Sat May 23 21:00:38 2026] 127.0.0.1:60727 [200]: GET /css/item_card(second).css
+[Sat May 23 21:00:38 2026] 127.0.0.1:60727 Closing
+[Sat May 23 21:00:38 2026] 127.0.0.1:61634 Accepted
+[Sat May 23 21:00:38 2026] 127.0.0.1:61634 [200]: GET /css/app.css
+[Sat May 23 21:00:38 2026] 127.0.0.1:61634 Closing
+[Sat May 23 21:00:38 2026] 127.0.0.1:49889 Accepted
+[Sat May 23 21:00:38 2026] 127.0.0.1:49889 [200]: GET /css/variables.css
+[Sat May 23 21:00:38 2026] 127.0.0.1:49889 Closing
+[Sat May 23 21:00:39 2026] 127.0.0.1:51509 Accepted
+[Sat May 23 21:00:39 2026] 127.0.0.1:51509 [200]: GET /players.php
+[Sat May 23 21:00:39 2026] 127.0.0.1:51509 Closing
+[Sat May 23 21:00:39 2026] 127.0.0.1:50726 Accepted
+[Sat May 23 21:00:39 2026] 127.0.0.1:50726 [200]: GET /css/player_card.css
+[Sat May 23 21:00:39 2026] 127.0.0.1:50726 Closing
+[Sat May 23 21:00:39 2026] 127.0.0.1:57650 Accepted
+[Sat May 23 21:00:39 2026] 127.0.0.1:57650 [200]: GET /css/app.css
+[Sat May 23 21:00:39 2026] 127.0.0.1:57650 Closing
+[Sat May 23 21:00:39 2026] 127.0.0.1:58225 Accepted
+[Sat May 23 21:00:39 2026] 127.0.0.1:58225 [200]: GET /css/variables.css
+[Sat May 23 21:00:39 2026] 127.0.0.1:58225 Closing
+[Sat May 23 21:00:41 2026] 127.0.0.1:63676 Accepted
+[Sat May 23 21:00:41 2026] 127.0.0.1:63676 [200]: GET /player.php?id_player=112
+[Sat May 23 21:00:41 2026] 127.0.0.1:63676 Closing
+[Sat May 23 21:00:41 2026] 127.0.0.1:52661 Accepted
+[Sat May 23 21:00:41 2026] 127.0.0.1:50719 Accepted
+[Sat May 23 21:00:41 2026] 127.0.0.1:52661 [200]: GET /css/item_card(second).css
+[Sat May 23 21:00:41 2026] 127.0.0.1:52661 Closing
+[Sat May 23 21:00:41 2026] 127.0.0.1:50719 [200]: GET /css/quest_card(second).css
+[Sat May 23 21:00:41 2026] 127.0.0.1:59894 Accepted
+[Sat May 23 21:00:41 2026] 127.0.0.1:50719 Closing
+[Sat May 23 21:00:41 2026] 127.0.0.1:53951 Accepted
+[Sat May 23 21:00:41 2026] 127.0.0.1:59894 [200]: GET /css/app.css
+[Sat May 23 21:00:41 2026] 127.0.0.1:53951 [200]: GET /css/description_player.css
+[Sat May 23 21:00:41 2026] 127.0.0.1:59894 Closing
+[Sat May 23 21:00:41 2026] 127.0.0.1:53951 Closing
+[Sat May 23 21:00:41 2026] 127.0.0.1:62699 Accepted
+[Sat May 23 21:00:41 2026] 127.0.0.1:62699 [200]: GET /css/variables.css
+[Sat May 23 21:00:41 2026] 127.0.0.1:62699 Closing
+[Sat May 23 21:00:46 2026] 127.0.0.1:57260 Accepted
+[Sat May 23 21:00:46 2026] 127.0.0.1:57260 [200]: GET /items.php
+[Sat May 23 21:00:46 2026] 127.0.0.1:57260 Closing
+[Sat May 23 21:00:46 2026] 127.0.0.1:60023 Accepted
+[Sat May 23 21:00:46 2026] 127.0.0.1:59922 Accepted
+[Sat May 23 21:00:46 2026] 127.0.0.1:60023 [200]: GET /css/item_card(second).css
+[Sat May 23 21:00:46 2026] 127.0.0.1:60023 Closing
+[Sat May 23 21:00:46 2026] 127.0.0.1:59922 [200]: GET /css/app.css
+[Sat May 23 21:00:46 2026] 127.0.0.1:59922 Closing
+[Sat May 23 21:00:46 2026] 127.0.0.1:50816 Accepted
+[Sat May 23 21:00:46 2026] 127.0.0.1:50816 [200]: GET /css/variables.css
+[Sat May 23 21:00:46 2026] 127.0.0.1:50816 Closing
+[Sat May 23 21:00:46 2026] 127.0.0.1:64399 Accepted
+[Sat May 23 21:00:46 2026] 127.0.0.1:64399 [200]: GET /quests.php
+[Sat May 23 21:00:46 2026] 127.0.0.1:64399 Closing
+[Sat May 23 21:00:46 2026] 127.0.0.1:51418 Accepted
+[Sat May 23 21:00:46 2026] 127.0.0.1:51418 [200]: GET /css/quest_card(second).css
+[Sat May 23 21:00:46 2026] 127.0.0.1:51418 Closing
+[Sat May 23 21:00:46 2026] 127.0.0.1:55719 Accepted
+[Sat May 23 21:00:46 2026] 127.0.0.1:55719 [200]: GET /css/app.css
+[Sat May 23 21:00:46 2026] 127.0.0.1:55719 Closing
+[Sat May 23 21:00:46 2026] 127.0.0.1:61959 Accepted
+[Sat May 23 21:00:46 2026] 127.0.0.1:61959 [200]: GET /css/variables.css
+[Sat May 23 21:00:46 2026] 127.0.0.1:61959 Closing
+[Sat May 23 21:00:47 2026] 127.0.0.1:62164 Accepted
+[Sat May 23 21:00:47 2026] 127.0.0.1:62164 [200]: GET /items.php
+[Sat May 23 21:00:47 2026] 127.0.0.1:62164 Closing
+[Sat May 23 21:00:47 2026] 127.0.0.1:53913 Accepted
+[Sat May 23 21:00:47 2026] 127.0.0.1:53913 [200]: GET /css/item_card(second).css
+[Sat May 23 21:00:47 2026] 127.0.0.1:53913 Closing
+[Sat May 23 21:00:47 2026] 127.0.0.1:53403 Accepted
+[Sat May 23 21:00:47 2026] 127.0.0.1:53403 [200]: GET /css/app.css
+[Sat May 23 21:00:47 2026] 127.0.0.1:53403 Closing
+[Sat May 23 21:00:47 2026] 127.0.0.1:49795 Accepted
+[Sat May 23 21:00:47 2026] 127.0.0.1:49795 [200]: GET /css/variables.css
+[Sat May 23 21:00:47 2026] 127.0.0.1:49795 Closing
+[Sat May 23 21:00:47 2026] 127.0.0.1:64360 Accepted
+[Sat May 23 21:00:47 2026] 127.0.0.1:64360 [200]: GET /players.php
+[Sat May 23 21:00:47 2026] 127.0.0.1:64360 Closing
+[Sat May 23 21:00:47 2026] 127.0.0.1:52700 Accepted
+[Sat May 23 21:00:47 2026] 127.0.0.1:51075 Accepted
+[Sat May 23 21:00:47 2026] 127.0.0.1:52700 [200]: GET /css/player_card.css
+[Sat May 23 21:00:47 2026] 127.0.0.1:52700 Closing
+[Sat May 23 21:00:47 2026] 127.0.0.1:51075 [200]: GET /css/app.css
+[Sat May 23 21:00:47 2026] 127.0.0.1:51075 Closing
+[Sat May 23 21:00:47 2026] 127.0.0.1:63169 Accepted
+[Sat May 23 21:00:47 2026] 127.0.0.1:63169 [200]: GET /css/variables.css
+[Sat May 23 21:00:47 2026] 127.0.0.1:63169 Closing
+[Sat May 23 21:05:16 2026] 127.0.0.1:51950 Accepted
+[Sat May 23 21:05:17 2026] 127.0.0.1:51950 [200]: GET /items.php
+[Sat May 23 21:05:17 2026] 127.0.0.1:51950 Closing
+[Sat May 23 21:05:17 2026] 127.0.0.1:64435 Accepted
+[Sat May 23 21:05:17 2026] 127.0.0.1:64435 [200]: GET /css/item_card(second).css
+[Sat May 23 21:05:17 2026] 127.0.0.1:64435 Closing
+[Sat May 23 21:05:17 2026] 127.0.0.1:53467 Accepted
+[Sat May 23 21:05:17 2026] 127.0.0.1:53467 [200]: GET /css/app.css
+[Sat May 23 21:05:17 2026] 127.0.0.1:53467 Closing
+[Sat May 23 21:05:17 2026] 127.0.0.1:64007 Accepted
+[Sat May 23 21:05:17 2026] 127.0.0.1:64007 [200]: GET /css/variables.css
+[Sat May 23 21:05:17 2026] 127.0.0.1:64007 Closing
+[Sat May 23 21:05:21 2026] 127.0.0.1:58245 Accepted
+[Sat May 23 21:05:21 2026] 127.0.0.1:58245 [200]: GET /item.php?id_item=128
+[Sat May 23 21:05:21 2026] 127.0.0.1:58245 Closing
+[Sat May 23 21:05:21 2026] 127.0.0.1:49827 Accepted
+[Sat May 23 21:05:21 2026] 127.0.0.1:54194 Accepted
+[Sat May 23 21:05:21 2026] 127.0.0.1:49827 [200]: GET /css/item_card(second).css
+[Sat May 23 21:05:21 2026] 127.0.0.1:49827 Closing
+[Sat May 23 21:05:21 2026] 127.0.0.1:54194 [200]: GET /css/app.css
+[Sat May 23 21:05:21 2026] 127.0.0.1:54194 Closing
+[Sat May 23 21:05:21 2026] 127.0.0.1:63677 Accepted
+[Sat May 23 21:05:21 2026] 127.0.0.1:63677 [200]: GET /css/variables.css
+[Sat May 23 21:05:21 2026] 127.0.0.1:63677 Closing
+[Sat May 23 21:05:24 2026] 127.0.0.1:60491 Accepted
+[Sat May 23 21:05:24 2026] 127.0.0.1:60491 [200]: GET /items.php
+[Sat May 23 21:05:24 2026] 127.0.0.1:60491 Closing
+[Sat May 23 21:05:24 2026] 127.0.0.1:60940 Accepted
+[Sat May 23 21:05:24 2026] 127.0.0.1:60940 [200]: GET /css/item_card(second).css
+[Sat May 23 21:05:24 2026] 127.0.0.1:60940 Closing
+[Sat May 23 21:05:24 2026] 127.0.0.1:56609 Accepted
+[Sat May 23 21:05:24 2026] 127.0.0.1:56609 [200]: GET /css/app.css
+[Sat May 23 21:05:24 2026] 127.0.0.1:56609 Closing
+[Sat May 23 21:05:24 2026] 127.0.0.1:55942 Accepted
+[Sat May 23 21:05:24 2026] 127.0.0.1:55942 [200]: GET /css/variables.css
+[Sat May 23 21:05:24 2026] 127.0.0.1:55942 Closing
+[Sat May 23 21:05:26 2026] 127.0.0.1:62882 Accepted
+[Sat May 23 21:05:26 2026] 127.0.0.1:62882 [200]: GET /quests.php
+[Sat May 23 21:05:26 2026] 127.0.0.1:62882 Closing
+[Sat May 23 21:05:26 2026] 127.0.0.1:59838 Accepted
+[Sat May 23 21:05:26 2026] 127.0.0.1:60307 Accepted
+[Sat May 23 21:05:26 2026] 127.0.0.1:59838 [200]: GET /css/quest_card(second).css
+[Sat May 23 21:05:26 2026] 127.0.0.1:59838 Closing
+[Sat May 23 21:05:26 2026] 127.0.0.1:60307 [200]: GET /css/app.css
+[Sat May 23 21:05:26 2026] 127.0.0.1:60307 Closing
+[Sat May 23 21:05:26 2026] 127.0.0.1:60064 Accepted
+[Sat May 23 21:05:26 2026] 127.0.0.1:60064 [200]: GET /css/variables.css
+[Sat May 23 21:05:26 2026] 127.0.0.1:60064 Closing
+[Sat May 23 21:05:29 2026] 127.0.0.1:57287 Accepted
+[Sat May 23 21:05:29 2026] 127.0.0.1:57287 [200]: GET /add.php
+[Sat May 23 21:05:29 2026] 127.0.0.1:57287 Closing
+[Sat May 23 21:05:29 2026] 127.0.0.1:56104 Accepted
+[Sat May 23 21:05:29 2026] 127.0.0.1:56104 [200]: GET /css/app.css
+[Sat May 23 21:05:29 2026] 127.0.0.1:56104 Closing
+[Sat May 23 21:05:29 2026] 127.0.0.1:56009 Accepted
+[Sat May 23 21:05:29 2026] 127.0.0.1:56009 [200]: GET /css/variables.css
+[Sat May 23 21:05:29 2026] 127.0.0.1:56009 Closing
+[Sat May 23 21:05:31 2026] 127.0.0.1:59935 Accepted
+[Sat May 23 21:05:31 2026] 127.0.0.1:59935 [200]: GET /items.php
+[Sat May 23 21:05:31 2026] 127.0.0.1:59935 Closing
+[Sat May 23 21:05:31 2026] 127.0.0.1:64327 Accepted
+[Sat May 23 21:05:31 2026] 127.0.0.1:63871 Accepted
+[Sat May 23 21:05:31 2026] 127.0.0.1:64327 [200]: GET /css/item_card(second).css
+[Sat May 23 21:05:31 2026] 127.0.0.1:64327 Closing
+[Sat May 23 21:05:31 2026] 127.0.0.1:63871 [200]: GET /css/app.css
+[Sat May 23 21:05:31 2026] 127.0.0.1:63871 Closing
+[Sat May 23 21:05:31 2026] 127.0.0.1:58604 Accepted
+[Sat May 23 21:05:31 2026] 127.0.0.1:58604 [200]: GET /css/variables.css
+[Sat May 23 21:05:31 2026] 127.0.0.1:58604 Closing
+[Sat May 23 21:05:32 2026] 127.0.0.1:62220 Accepted
+[Sat May 23 21:05:32 2026] 127.0.0.1:62220 [200]: GET /quests.php
+[Sat May 23 21:05:32 2026] 127.0.0.1:62220 Closing
+[Sat May 23 21:05:32 2026] 127.0.0.1:57459 Accepted
+[Sat May 23 21:05:32 2026] 127.0.0.1:49235 Accepted
+[Sat May 23 21:05:32 2026] 127.0.0.1:57459 [200]: GET /css/quest_card(second).css
+[Sat May 23 21:05:32 2026] 127.0.0.1:57459 Closing
+[Sat May 23 21:05:32 2026] 127.0.0.1:49235 [200]: GET /css/app.css
+[Sat May 23 21:05:32 2026] 127.0.0.1:49235 Closing
+[Sat May 23 21:05:32 2026] 127.0.0.1:52794 Accepted
+[Sat May 23 21:05:32 2026] 127.0.0.1:52794 [200]: GET /css/variables.css
+[Sat May 23 21:05:32 2026] 127.0.0.1:52794 Closing
+[Sat May 23 21:05:33 2026] 127.0.0.1:62958 Accepted
+[Sat May 23 21:05:33 2026] 127.0.0.1:62958 [200]: GET /items.php
+[Sat May 23 21:05:33 2026] 127.0.0.1:62958 Closing
+[Sat May 23 21:05:33 2026] 127.0.0.1:62002 Accepted
+[Sat May 23 21:05:33 2026] 127.0.0.1:50781 Accepted
+[Sat May 23 21:05:33 2026] 127.0.0.1:62002 [200]: GET /css/item_card(second).css
+[Sat May 23 21:05:33 2026] 127.0.0.1:62002 Closing
+[Sat May 23 21:05:33 2026] 127.0.0.1:50781 [200]: GET /css/app.css
+[Sat May 23 21:05:33 2026] 127.0.0.1:50781 Closing
+[Sat May 23 21:05:33 2026] 127.0.0.1:63626 Accepted
+[Sat May 23 21:05:33 2026] 127.0.0.1:63626 [200]: GET /css/variables.css
+[Sat May 23 21:05:33 2026] 127.0.0.1:63626 Closing
+[Sat May 23 21:05:33 2026] 127.0.0.1:49668 Accepted
+[Sat May 23 21:05:33 2026] 127.0.0.1:49863 Accepted
+[Sat May 23 21:05:33 2026] 127.0.0.1:49668 [200]: GET /players.php
+[Sat May 23 21:05:33 2026] 127.0.0.1:49668 Closing
+[Sat May 23 21:05:33 2026] 127.0.0.1:49863 [200]: GET /css/player_card.css
+[Sat May 23 21:05:33 2026] 127.0.0.1:49863 Closing
+[Sat May 23 21:05:33 2026] 127.0.0.1:64414 Accepted
+[Sat May 23 21:05:33 2026] 127.0.0.1:64414 [200]: GET /css/app.css
+[Sat May 23 21:05:33 2026] 127.0.0.1:64414 Closing
+[Sat May 23 21:05:33 2026] 127.0.0.1:54233 Accepted
+[Sat May 23 21:05:33 2026] 127.0.0.1:54233 [200]: GET /css/variables.css
+[Sat May 23 21:05:33 2026] 127.0.0.1:54233 Closing
+[Sat May 23 21:05:35 2026] 127.0.0.1:58665 Accepted
+[Sat May 23 21:05:35 2026] 127.0.0.1:58665 [200]: GET /items.php
+[Sat May 23 21:05:35 2026] 127.0.0.1:58665 Closing
+[Sat May 23 21:05:35 2026] 127.0.0.1:61746 Accepted
+[Sat May 23 21:05:35 2026] 127.0.0.1:61746 [200]: GET /css/item_card(second).css
+[Sat May 23 21:05:35 2026] 127.0.0.1:61746 Closing
+[Sat May 23 21:05:35 2026] 127.0.0.1:50346 Accepted
+[Sat May 23 21:05:35 2026] 127.0.0.1:50346 [200]: GET /css/app.css
+[Sat May 23 21:05:35 2026] 127.0.0.1:50346 Closing
+[Sat May 23 21:05:35 2026] 127.0.0.1:50235 Accepted
+[Sat May 23 21:05:35 2026] 127.0.0.1:50235 [200]: GET /css/variables.css
+[Sat May 23 21:05:35 2026] 127.0.0.1:50235 Closing
+[Sat May 23 21:05:37 2026] 127.0.0.1:58407 Accepted
+[Sat May 23 21:05:38 2026] 127.0.0.1:58407 [200]: GET /quests.php
+[Sat May 23 21:05:38 2026] 127.0.0.1:58407 Closing
+[Sat May 23 21:05:38 2026] 127.0.0.1:62393 Accepted
+[Sat May 23 21:05:38 2026] 127.0.0.1:64833 Accepted
+[Sat May 23 21:05:38 2026] 127.0.0.1:62393 [200]: GET /css/quest_card(second).css
+[Sat May 23 21:05:38 2026] 127.0.0.1:62393 Closing
+[Sat May 23 21:05:38 2026] 127.0.0.1:64833 [200]: GET /css/app.css
+[Sat May 23 21:05:38 2026] 127.0.0.1:64833 Closing
+[Sat May 23 21:05:38 2026] 127.0.0.1:57266 Accepted
+[Sat May 23 21:05:38 2026] 127.0.0.1:57266 [200]: GET /css/variables.css
+[Sat May 23 21:05:38 2026] 127.0.0.1:57266 Closing
+[Sat May 23 21:12:08 2026] 127.0.0.1:64882 Accepted
+[Sat May 23 21:12:09 2026] 127.0.0.1:64882 [200]: GET /
+[Sat May 23 21:12:09 2026] 127.0.0.1:64882 Closing
+[Sat May 23 21:12:09 2026] 127.0.0.1:63518 Accepted
+[Sat May 23 21:12:09 2026] 127.0.0.1:63518 [200]: GET /css/app.css
+[Sat May 23 21:12:09 2026] 127.0.0.1:63518 Closing
+[Sat May 23 21:12:09 2026] 127.0.0.1:58760 Accepted
+[Sat May 23 21:12:09 2026] 127.0.0.1:58760 [200]: GET /css/variables.css
+[Sat May 23 21:12:09 2026] 127.0.0.1:58760 Closing

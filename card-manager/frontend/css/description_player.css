@@ -319,9 +319,13 @@ button {
 .description-player__edit,
 .description-player__return {
   height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 7px;
   font-size: 13px;
   font-weight: 650;
+  text-decoration: none;
 }
 
 .description-player__edit {
