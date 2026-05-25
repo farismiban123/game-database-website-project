@@ -1,9 +1,0 @@
-
-> card-manager@1.0.0 start:backend
-> npm start --prefix backend
-
-
-> card-manager-backend@1.0.0 start
-> node src/server.js
-
-Backend jalan di http://localhost:5000
