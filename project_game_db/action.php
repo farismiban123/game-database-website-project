@@ -102,6 +102,7 @@ if(isset($_POST['delete_quest'])){
 
     // Refresh the page
     header("Location: edit_player.php?player_id=$player_id");
+}
 if(isset($_POST['add_item'])) {
     $item_name = $_POST['item_name'];
     $item_category = $_POST['item_category'];
