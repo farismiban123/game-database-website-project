@@ -84,6 +84,12 @@ body{
     gap: 14px;
 }
 
+.edit-form-player-quest-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
 /* CARD */
 
 .player-card{
@@ -539,3 +545,4 @@ input {
     font-size: 16px;
     font-weight: 600;
 }
+

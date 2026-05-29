@@ -77,7 +77,7 @@ if ($search !== '') {
         </div>
 
         <div class="panel-buttons">
-            <button>Edit Player</button>
+            <a href="#" id="panel-edit-button">Edit Player</a>
             <button onclick="closePlayerPanel()">Close Panel</button>
         </div>
     </div>
@@ -165,6 +165,7 @@ if ($search !== '') {
         document.getElementById('panel-id').innerText = playerId;
         document.getElementById('panel-joindate').innerText = playerJoinDate;
         document.getElementById('panel-level').innerText = playerLevel;
+        document.getElementById('panel-edit-button').href = `edit_player.php?player_id=${playerId}`;
 
         // 3. Open the panel immediately so the user sees something happening
         document.getElementById('side-panel').style.display = 'flex';
@@ -232,6 +233,7 @@ if ($search !== '') {
                         <div class="quest-card">
                             <h2>${quest.quest_name}</h2>
                             <div class="quest-preview"></div>
+                            
                             <div class="player-info">   
                                 <div class="info-box">
                                     <span class="label">Reward</span>
@@ -268,3 +270,5 @@ if ($search !== '') {
         document.getElementById('panel-inventory-grid').style.display = 'none';
     }
 </script>
+
+<button class="btn-delete">Delete Player</button>
