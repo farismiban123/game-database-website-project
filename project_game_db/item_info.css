@@ -1,0 +1,123 @@
+.item-info-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 900;
+}
+
+.item-info-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: min(420px, 100%);
+    height: 100vh;
+    overflow-y: auto;
+    background: #ffffff;
+    padding: 10px;
+    gap : 10px;
+    z-index: 901;
+    box-shadow: -6px 0 22px rgba(0, 0, 0, 0.24);
+}
+
+.item-info-card,
+.item-info-description {
+    border: 1.5px solid #4ed6cf;
+    border-radius: 8px;
+    background: rgba(78, 214, 207, 0.25);
+    padding: 10px;
+}
+
+.item-info-name-row {
+    margin-bottom : 10px;
+}
+.item-info-id-row,
+.item-info-choice-row {
+    min-width : 0;
+    display: flex;
+    align-items: center;
+    margin-top : 10px;
+    gap: 10px;
+}
+
+.item-info-name-row span,
+.same-category-title {
+    color: #8a8a8a;
+    font-weight: 700;
+}
+
+.item-info-description {
+    margin-top: 12px;
+}
+
+.item-info-description h2 {
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.item-info-description p {
+    font-size: 12px;
+    line-height: 1.45;
+}
+
+.same-category-title {
+    margin: 10px 0 8px;
+    font-size: 16px;
+}
+
+.same-category-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    padding-bottom: 58px;
+}
+
+.item-info-choice {
+    flex: 1 1 0;
+    min-width: 0;
+    width: auto;
+    overflow: hidden;
+}
+
+.item-info-bottom-actions {
+    position: sticky;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding-top: 8px;
+    background: #ffffff;
+}
+
+.item-info-choice strong {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+     scrollbar-width: none;      /* Firefox */
+    -ms-overflow-style: none;   /* Edge lama */
+}
+
+.item-info-bottom-actions a {
+    text-align: center;
+    text-decoration: none;
+    border: 1.5px solid #44d7cf;
+    border-radius: 7px;
+    padding: 8px;
+    color: #44d7cf;
+    background: rgba(78, 214, 207, 0.25);
+    font-weight: 700;
+}
+
+.item-info-bottom-actions a:first-child {
+    background: #4ed6cf;
+    color: #ffffff;
+}
+
+.item-mini-desc {
+    text-decoration: none;
+    display: grid;
+    place-items: center;
+}

@@ -84,9 +84,9 @@ if ($search !== '') {
 
     <nav>
         <ul>
-            <li><a href="#">Player List</a></li>
-            <li><a href="#">Quest List</a></li>
-            <li><a href="items.php">Items List</a></li>
+            <li><a href="index.php">Player List</a></li>
+            <li><a href="quest_page.php">Quest List</a></li>
+            <li><a href="item_page.php">Items List</a></li>
             <li><a href="#">Modifier List</a></li>
         </ul>
     </nav>

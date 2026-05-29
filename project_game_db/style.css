@@ -40,7 +40,7 @@ nav ul li a:hover{
 }
 
 h1{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .container a{
@@ -53,11 +53,6 @@ h1{
 
 .container a:hover{
     background: rgb(36, 36, 255);
-}
-
-.btn-delete{
-    background: red;
-    margin-left: 5px;
 }
 
 .player-container{
@@ -77,16 +72,6 @@ body{
     display: flex;
     justify-content: center;
     margin: 30px 0;
-}
-
-.top-bar input{
-    width: 500px;
-    padding: 12px 18px;
-    border-radius: 14px;
-    border: 2px solid #ddd;
-    outline: none;
-    font-size: 16px;
-    background: white;
 }
 
 /* GRID */

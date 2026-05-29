@@ -6,6 +6,16 @@ if (!function_exists('e')) {
 }
 
 $search = $search ?? trim($_GET['search'] ?? '');
+$category = $category ?? trim($_GET['category'] ?? '');
+
+$category_query = mysqli_query(
+    $conn,
+    "SELECT DISTINCT item_category 
+     FROM items 
+     WHERE item_category IS NOT NULL AND item_category != ''
+     ORDER BY item_category ASC"
+);
+
 ?>
 <div class ="search-container">
 <form class="search-form" method="GET" action="index.php">
