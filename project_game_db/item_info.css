@@ -121,3 +121,35 @@
     display: grid;
     place-items: center;
 }
+
+.item-info-input,
+.item-info-select {
+    width: 100%;
+    border: 1.5px solid #44d7cf;
+    border-radius: 7px;
+    padding: 8px;
+    font-weight: 700;
+    background: #ffffff;
+}
+
+.item-info-bottom-actions button {
+    border: 1.5px solid #44d7cf;
+    border-radius: 7px;
+    padding: 8px;
+    background: #4ed6cf;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.item-info-textarea {
+    width: 100%;
+    min-height: 120px;
+    box-sizing: border-box;
+    border: 1.5px solid #44d7cf;
+    border-radius: 7px;
+    padding: 8px;
+    resize: vertical;
+    font: inherit;
+    background: #ffffff;
+}
