@@ -84,12 +84,6 @@ body{
     gap: 14px;
 }
 
-.edit-form-player-quest-grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-}
-
 /* CARD */
 
 .player-card{
@@ -520,18 +514,15 @@ input {
     height: 80%;
     margin-right : 3.5px;
     border: 2px solid #4ecdc4;
-    background: #4ecdc425;
+    background: #4ecdc4;
     border-radius : 8px;
     font-size: 16px;
     cursor: pointer;
-    color: #4ecdc4;
+    color: #ffffff;
     padding: 0 24px;
 }
 
-.search-button:hover {
-    color : #ffffff;
-    background : #4ecdc4;
-}
+
 
 .add-button {
     height: 47px;
@@ -545,4 +536,3 @@ input {
     font-size: 16px;
     font-weight: 600;
 }
-

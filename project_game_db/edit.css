@@ -1,0 +1,139 @@
+.edit-page-wrapper {
+    min-height: 100vh;
+    padding: 18px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-page {
+    width: min(100%, 2000px);
+    min-height: 680px;
+    padding: 16px;
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1.95fr;
+    gap: 18px;
+}
+
+.edit-column {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 16px;
+}
+
+.edit-panel,
+.edit-empty-panel,
+.edit-main-panel,
+.edit-sub-panel {
+    border: 1px solid #dddddd;
+    border-radius: 14px;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.14);
+}
+
+.edit-panel,
+.edit-empty-panel {
+    background: #ffffff;
+    padding: 16px;
+}
+
+.edit-main-panel {
+    background: #ffffff;
+    padding: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+
+.edit-sub-panel {
+    background: #bdf2ee;
+    border-color: #4ecdc4;
+    padding: 16px;
+}
+
+.edit-panel h2,
+.edit-sub-panel h2 {
+    margin: 0 0 12px;
+    text-align: center;
+    font-size: 18px;
+}
+.edit-sub-panel h3 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.edit-sub-panel h2 {
+    color: #ffffff;
+}
+.edit-sub-panel h3 {
+    color: #000000;
+}
+
+.edit-form {
+    display: grid;
+    gap: 12px;
+}
+
+.edit-form input,
+.edit-form select {
+    width: 100%;
+    height: 46px;
+    padding: 0 16px;
+    border: 2px solid #4ecdc4;
+    border-radius: 12px;
+    background: #ffffff;
+    outline: none;
+    font-size: 14px;
+}
+
+.edit-button-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.edit-button-row button[type="submit"] {
+    height: 34px; 
+    border: 2px solid #4ecdc4;
+    color: #ffffff;
+    background : #4ecdc4;
+    border-radius : 9px;
+    font-weight: 700;
+}
+.edit-button-row a {
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #4ecdc4;
+    border-radius: 9px;
+    background: #ffffff;
+    color: #4ecdc4;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.edit-button-row a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4ecdc4;
+}
+
+.edit-card-list {
+    display: grid;
+    gap: 14px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 8px;
+}
+
+.edit-card-list .item-mini-card {
+    width: 210px;
+}
+
+.edit-card-list .item-mini-preview {
+    height: 190px;
+}

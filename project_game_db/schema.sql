@@ -26,7 +26,7 @@ MariaDB [game_db]> DESC inventory;
 +--------------+---------+------+-----+---------+----------------+
 | Field        | Type    | Null | Key | Default | Extra          |
 +--------------+---------+------+-----+---------+----------------+
-| inventory_id | int(11) | NO   | PRI | NULL    | auto_increment |
+| inventory_id | int(11) | NO   | PRI | NULL    | auto_increment |*hapus bagian ini.*
 | player_id    | int(11) | NO   | MUL | NULL    |                |
 | item_id      | int(11) | NO   | MUL | NULL    |                |
 | modifier_id  | int(11) | YES  |     | NULL    |                |
