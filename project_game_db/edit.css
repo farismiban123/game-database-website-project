@@ -100,6 +100,11 @@
     background : #4ecdc4;
     border-radius : 9px;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.edit-button-row button:hover[type="submit"] {
+    opacity: 0.8;
 }
 .edit-button-row a {
     height: 34px;

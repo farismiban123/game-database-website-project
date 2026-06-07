@@ -32,12 +32,59 @@ if ($search !== '') {
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <div class="player-panel" id="side-panel">
+        <div class="player-panel-header">
+            <h2>Player Details</h2>
+        </div>
+        <div class="player-panel-card">
+            <div class="player-card-left-panel">
+                <div class="player-preview"></div>
+                <div class="info-box">
+                    <span class="label">Level</span>
+                    <h1 id="panel-level">12</h1>
+                </div>
+            </div>
+            
+            <div class="player-info">
+                <div class="info-box">
+                    <span class="label">Username</span>
+                    <strong id="panel-username">Bob 123</strong>
+                </div>
+
+                <div class="info-box">
+                    <span class="label">ID</span>
+                    <strong id="panel-id">1408</strong>
+                </div>
+
+                <div class="info-box">
+                    <span class="label">Join Date</span>
+                    <strong id="panel-joindate">May 24, 2025</strong>
+                </div>
+            </div>
+        </div>
+        <div class="panel-buttons">
+            <button onclick="openInventoryGrid()">Inventory</button>
+            <button onclick="openQuestGrid()">Quest</button>
+        </div>
+        <div class="inventory-grid" id="panel-inventory-grid">
+
+        </div>
+
+        <div class="quest-grid" id="panel-quest-grid">
+           
+
+        </div>
+
+        <div class="panel-buttons">
+            <a href="#" id="panel-edit-button">Edit Player</a>
+            <button onclick="closePlayerPanel()">Close Panel</button>
+        </div>
+    </div>
     <nav>
         <ul>
             <li><a href="index.php">Player List</a></li>
             <li><a href="quest_page.php">Quest List</a></li>
             <li><a href="item_page.php">Items List</a></li>
-            <li><a href="#">Modifier List</a></li>
         </ul>
     </nav>
     <div class="player-container">
@@ -115,6 +162,7 @@ if ($search !== '') {
         document.getElementById('panel-id').innerText = playerId;
         document.getElementById('panel-joindate').innerText = playerJoinDate;
         document.getElementById('panel-level').innerText = playerLevel;
+        document.getElementById('panel-edit-button').href = `edit_player.php?player_id=${playerId}`;
 
         // 3. Open the panel immediately so the user sees something happening
         document.getElementById('side-panel').style.display = 'flex';
