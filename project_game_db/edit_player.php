@@ -96,11 +96,8 @@ $completed_quest_query = mysqli_query($conn, "SELECT completed_quest.completed_q
                         <?php endwhile; ?>
                     </select>
 
-                    <input type="number" name="modifier_id" placeholder="Modifier ID (Optional)">
-
                     <div class="edit-button-row">
                         <button type="submit" name="add_inventory">Submit</button>
-                        <a href="index.php">Return</a>
                     </div>
                 </form>
 
@@ -161,7 +158,6 @@ $completed_quest_query = mysqli_query($conn, "SELECT completed_quest.completed_q
 
                     <div class="edit-button-row">
                         <button type="submit" name="add_completed_quest">Submit</button>
-                        <a href="index.php">Return</a>
                     </div>
                 </form>
 

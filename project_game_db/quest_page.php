@@ -76,7 +76,6 @@ $quest_card_query = mysqli_stmt_get_result($stmt);
             <li><a href="index.php">Player List</a></li>
             <li><a href="quest_page.php">Quest List</a></li>
             <li><a href="item_page.php">Items List</a></li>
-            <li><a href="#">Modifier List</a></li>
         </ul>
     </nav>
     <div class="player-container">

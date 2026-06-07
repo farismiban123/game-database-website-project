@@ -373,6 +373,27 @@ body{
     cursor: pointer;
 }
 
+.panel-buttons a{
+    flex: 1;
+
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    background: #55d6d0;
+    color: white;
+
+    font-size: 16px;
+    padding: 12px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.panel-buttons a:hover{
+    opacity: 0.8;
+}
+
 .panel-buttons button:hover{
     opacity: 0.8;
 }

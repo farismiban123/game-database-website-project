@@ -95,10 +95,9 @@ if(isset($_POST['edit_player'])) {
 if (isset($_POST['add_inventory'])) {
     $player_id = (int) $_POST['player_id'];
     $item_id = (int) $_POST['item_id'];
-    $modifier_id = $_POST['modifier_id'] !== '' ? (int) $_POST['modifier_id'] : "NULL";
 
-    mysqli_query($conn, "INSERT INTO inventory (player_id, item_id, modifier_id)
-                        VALUES ($player_id, $item_id, $modifier_id)
+    mysqli_query($conn, "INSERT INTO inventory (player_id, item_id)
+                        VALUES ($player_id, $item_id)
     ");
 
     header("Location: edit_player.php?player_id=$player_id");
