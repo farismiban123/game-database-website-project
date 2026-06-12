@@ -17,6 +17,7 @@ if(isset($_POST['delete_player'])){
     $player_id = (int) $_POST['player_id'];
 
     mysqli_query($conn, "DELETE FROM inventory WHERE player_id = $player_id");
+    mysqli_query($conn, "DELETE FROM completed_quest WHERE player_id = $player_id");
     mysqli_query($conn, "DELETE FROM player WHERE player_id = $player_id");
 
     header("Location: index.php");
